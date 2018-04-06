@@ -52,9 +52,32 @@ body{
     background:#8f746c;
 }
 
+header.value-prop {
+    width:100%;
+    padding: 20px 20px;
+    height: 400px;
+    background-color: #242F77;
+    text-align: center;
+}
+
+header.value-prop h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+/*
 #lead-banner img{
     width:100%;
     text-align: center;
+}
+*/
+#mission{
+    margin: 30px 0;
+    text-align: center;
+}
+
+#mission h2.mission-statement{
+    margin-bottom: 10px;
 }
 
 #services{
@@ -62,7 +85,27 @@ body{
     text-align: center;
 }
 
-#services h2.service-name{
+#services h3.service-name{
     font-size: 16px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+#services div{
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #F0F8FF;
+    border: 1px solid #000;
+}
+#services h3{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#services img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
 }
