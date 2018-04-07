@@ -78,11 +78,20 @@ header.value-prop h1 {
 
 #mission h2.mission-statement{
     margin-bottom: 10px;
+    font-weight: bold;
+}
+#mission p{
+    margin: 0px 20px;
 }
 
 #services{
     margin: 30px 0;
     text-align: center;
+}
+
+#services h2.service-header{
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 #services h3.service-name{
@@ -108,4 +117,13 @@ header.value-prop h1 {
     width: 100px;
     height: 100px;
     padding-bottom: 20px;
+}
+
+#team{
+    margin: 30px 0;
+    text-align: center;
+}
+#team h2.team-header{
+  margin-bottom: 10px;
+  font-weight: bold;
 }
